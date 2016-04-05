@@ -29,7 +29,7 @@
         return super.onInterceptTouchEvent(ev);
     }
     ```
-##2、该方法就是对touch事件的滑动做处理
+2、该方法就是对touch事件的滑动做处理
  
  ```java@Override
     public boolean onTouchEvent(MotionEvent event) {
@@ -73,7 +73,7 @@
         return true;
     }
      ```
-     #最重要的怎么可以看到前一个activity的界面就是设置主题如：
+    3、 最重要的可以看到前一个activity的界面，就是设置主题如：
      ```xml<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/transparent</item>
